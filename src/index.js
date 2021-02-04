@@ -35,10 +35,13 @@ var numbers = [3, 56, 2, 48, 5];
 //   return num > 10;
 // })
 
-const newNumber = numbers.find((x) => x > 10);
-console.log(newNumber);
+// const newNumber = numbers.find((x) => x > 10);
+// console.log(newNumber);
 
 ////FindIndex - find the index of the first item that matches.
 // const newNumber = numbers.findIndex(function (num) {
 //   return num > 10;
 // })
+
+const newNumber = numbers.findIndex((x) => x > 10);
+console.log(newNumber);
