@@ -19,13 +19,16 @@ var numbers = [3, 56, 2, 48, 5];
 //   return num < 10;
 // });
 
-const newNumbers = numbers.filter((x) => x < 10);
-console.log(newNumbers);
+// const newNumbers = numbers.filter((x) => x < 10);
+// console.log(newNumbers);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
 // var newNumber = numbers.reduce(function (accumulator, currentNumber) {
 //     return accumulator + currentNumber;
 // })
+
+const newNumber = numbers.reduce((x, y) => x + y);
+console.log(newNumber);
 
 ////Find - find the first item that matches from an array.
 // const newNumber = numbers.find(function (num) {
