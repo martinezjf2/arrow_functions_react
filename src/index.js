@@ -43,5 +43,5 @@ var numbers = [3, 56, 2, 48, 5];
 //   return num > 10;
 // })
 
-const newNumber = numbers.findIndex((x) => x > 10);
-console.log(newNumber);
+// const newNumber = numbers.findIndex((x) => x > 10);
+// console.log(newNumber);
